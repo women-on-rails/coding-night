@@ -1,0 +1,53 @@
+5 - A l'attaque !
+Quelqu'un approche ! Il est temps d'utiliser l'arme que vous avez récupérée si vous voulez sortir vivant de la Bataille.
+
+Afin de maximiser vos chances pour ce combat, il vous reste un peu de temps pour régler votre arme afin qu'elle fasse le maximum de dégâts.
+
+La puissance de votre arme est un compteur à dix chiffres, visible sur votre arme. Vous avez deux opérations pour modifier ce compteur :
+
+Incrémenter tous les chiffres du compteur : 1110336789 deviendra 2221447890 (les chiffres 9 deviennent 0)
+Déplacer tous les chiffres d'un cran vers la droite : 1110336789 deviendra 9111033678 (le chiffre de droite se retrouve à gauche)
+Vous pouvez vous servir de ces deux opérations autant de fois que vous voulez : à partir du score de puissance présent sur votre arme, quelle est la puissance maximale à la quelle vous pourrez régler votre arme ?
+
+Entrée
+L'entrée est un entier de 10 chiffres (10^9 <= n < 10^10) représentant la puissance actuelle de l'arme.
+
+Sortie
+Votre fonction doit retourner un entier représentant la puissance maximale possible en utilisant autant de fois que nécessaire les deux opérations de réglage.
+
+Exemples
+Entrée : 8279101235
+Sortie : 9890136057
+
+Entrée : 7324707115
+Sortie : 9935102585
+
+.
+
+.
+
+.
+
+5 - Attack!
+Someone's coming! It's time to use the weapon you found if you want to get out of the battle alive.
+
+In order to maximize your chances in this battle, you still have some time to adjust your weapon so that it does the maximum damage.
+
+The power of your weapon is a ten-digit counter, visible on your weapon. You have two operations to modify this counter:
+
+Increment all the numbers on the counter: 1110336789 will become 2221447890 (the 9 digits will become 0).
+Move all the digits one notch to the right: 1110336789 will become 9111033678 (the right digit is on the left)
+You can use these two operations as many times as you want: from the power score on your weapon, what is the maximum power you can set your weapon to?
+
+Input
+The input counter is a 10-digit integer (10^9 <= n < 10^10) representing the current power of the weapon.
+
+Output
+Your function must return an integer representing the maximum possible power using as many times as necessary the two adjustment operations.
+
+Example tests
+Input : 8279101235
+Output : 9890136057
+
+Input : 7324707115
+Output : 9935102585
