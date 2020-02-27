@@ -1,0 +1,86 @@
+6 - Dans les retranchements
+Vous avez réussi à repousser l'assaut, mais une nouvelle vague d'ennemis approche déjà.
+
+Vous les appercevez au loin, et ils vont entrer dans la forêt qui borde votre base. Afin d'anticiper leur arrivée et préparer au mieux le combat, vous chercher à prévoir tous les chemins possibles qu'ils peuvent emprunter dans la forêt.
+
+Vous avez sous les yeux le plan de la forêt : # dénote un arbre qui bloque le chemin, et . un terrain praticable. Vos ennemis sont au coin Nord-Ouest de la forêt et vous au Sud-Est.
+
+Cependant, vos ennemis sont dans un véhicule spécial, et ne peuvent se déplacer que vers le Sud ou vers l'Est : à partir du plan de la forêt, quel est le nombre total de chemins différents que vos ennemis peuvent emprunter ?
+
+Le nombre de chemins possibles est potentiellement très grand : votre fonction devra renvoyer seulement les 9 derniers chiffres de la réponse (donc la solution modulo 10^9).
+
+Entrée
+La forêt est un carré dont les côtés ne dépassent pas 100 unités de longueur. Les ennemis se trouvent au coin en haut à gauche, et vous en bas à droite.
+
+L'entrée est une liste de liste de chaîne de charactères (# ou .) représentant le plan de la forêt d'Ouest en Est et du Nord au Sud. Par exemple:
+
+[['.', '.', '.'], ['.', '#', '.'], ['#', '#', '.']]
+représente la forêt suivante :
+
+...
+.#.
+##.
+Sortie
+La sortie attendue est un entier représentant le nombre de chemins possibles (modulo 10^9) entre les ennemis et vous, en ne se déplaçant que vers le Sud ou vers l'Est.
+
+Exemples
+Entrée : [['.', '.', '.'], ['.', '#', '.'], ['#', '#', '.']]
+Sortie : 1 L'unique chemin entre vous est : Est -> Est -> Sud -> Sud
+
+Entrée : [['.', '.', '.', '.', '.', '.'], ['.', '#', '.', '.', '.', '.'], ['.', '.', '.', '.', '.', '.'], ['.', '.', '.', '#', '#', '.'], ['.', '.', '#', '#', '.', '.'], ['.', '#', '#', '.', '.', '.']]
+Sortie : 11
+
+La forêt représentée par ce cas est la suivante :
+
+......
+.#....
+......
+...##.
+..##..
+.##...
+.
+
+.
+
+.
+
+6 - Stronghold
+You managed to repel the assault, but a new wave of enemies is already approaching.
+
+You spot them in the distance, and they will enter the forest that borders your base. In order to anticipate their arrival and prepare for the battle, you try to anticipate all the possible paths they can take in the forest.
+
+You have in front of you the map of the forest: # denotes a tree blocking the path, and . a practicable terrain. Your enemies are in the northwest corner of the forest and you are in the southeast.
+
+However, your enemies are in a special vehicle, and can only move south or east: From the map of the forest, what is the total number of different paths your enemies can take?
+
+The number of possible paths is potentially very large: your function will have to return only the last 9 digits of the answer (thus the modulo 10^9 solution).
+
+Input
+The forest is a square whose sides do not exceed 100 units in length. The enemies are in the upper left corner, and you in the lower right corner.
+
+The entry grid is a list of strings (# or .) representing the map of the forest from West to East and North to South. For example:
+
+[['.', '.', '.'], ['.', '#', '.'], ['#', '#', '.']]
+represents the following forest:
+
+...
+.#.
+##.
+Output
+The expected exit is an integer representing the number of possible paths (modulo 10^9) between you and your enemies, moving only south or east.
+
+Exemples
+Input : [['.', '.', '.'], ['.', '#', '.'], ['#', '#', '.']]
+Output : 1 The only way between you is: East -> East -> South -> South -> South
+
+Input : [['.', '.', '.', '.', '.', '.'], ['.', '#', '.', '.', '.', '.'], ['.', '.', '.', '.', '.', '.'], ['.', '.', '.', '#', '#', '.'], ['.', '.', '#', '#', '.', '.'], ['.', '#', '#', '.', '.', '.']]
+Output : 11
+
+The forest represented by this case is as follows:
+
+......
+.#....
+......
+...##.
+..##..
+.##...
