@@ -1,0 +1,55 @@
+3 - A l'abri !
+La bataille fait rage, et vous avez survécu jusqu'à présent. Mais le plus dur reste devant vous !
+
+"Rétrécissement de la zone de combat dans 2 minutes"
+
+Vite, il faut rejoindre la zone sécurisée !! Mais où est-elle ?
+
+Vous ouvrez votre carte : il y a n zones, toutes numérotées de 1 à n, mais seule l'une d'entre elles est sécurisée. Sa coordonnée sur la carte correspond au nombre total de chiffres qui sont nécessaires pour écrire tous les nombres entre 1 et n.
+
+Donnez vite une fonction qui à partir du nombre de zones donne la coordonnée de la zone sécurisée !
+
+Entrée
+L'entrée est un entier n avec 0 < n < 10^10
+
+Sortie
+Votre fonction doit retourner un entier représentant le nombre de chiffres nécessaires pour écrire tous les nombres de 1 à n (compris)
+
+Exemples
+Entrée : 12
+Sortie : 15
+Explication: 1 2 3 4 5 6 7 8 9 10 11 12 -> 15 chiffres
+
+Entrée : 750
+Sortie : 2142
+
+.
+
+.
+
+.
+
+3 - Take cover!
+The battle rages on, and you have survived until now. But the hardest part is still ahead of you!
+
+"Battle zone shrinks in 2 minutes "
+
+Quick, we have to get to the safe zone! Where the hell is it?
+
+You open your map : there are n zones, all numbered from 1 to n, but only one of them is safe. Its coordinate on the card is the total number of digits that are needed to write all the numbers between 1 and n.
+
+Quick, give a function that from the number of zones gives the coordinate of the safe zone!
+
+Input
+The input is an integer n with 0 < n < 10^10.
+
+Output
+Your function must return an integer representing the number of digits needed to write all numbers from 1 to n (inclusive).
+
+Examples
+Input : 12
+Output : 15
+Explanation: 1 2 3 4 5 6 7 8 9 10 11 12 -> 15 digits
+
+Input : 750
+Output : 2142
