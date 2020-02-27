@@ -1,0 +1,55 @@
+2 - Exploration
+Après avoir retrouvé votre coéquipier, vous décidez d'activer le passage secret menant à une réserve de munitions. Pour ouvrir le passage, il faut se rendre sur des checkpoints répartis aux alentours, en respectant une seule règle : les checkpoints doivent être parcourus par coordonnée X croissante.
+
+Il est garanti que l'ordre est unique (les coordonnées X des checkpoints sont distinctes). Quelle sera la longueur de votre trajet ?
+
+Entrée
+L'entrée checkpoints est une liste de coordonnées (entier, entier) de tous les checkpoints.
+
+Il y aura entre 2 et 100 000 checkpoints dont les coordonnées sont comprises entre -100 000 et 100 000.
+
+Les checkpoints ne sont pas forcément donnés par X croissant.
+
+Sortie
+Votre fonction doit renvoyer un entier qui représente la longueur du trajet en distance euclidienne, arrondie à l'entier supérieur.
+
+Exemples
+Entrée : [[1, 10], [-1, 5], [4, 6]]
+Sortie : 11
+
+On parcourt d'abord le trajet (-1,5) -> (1,10) pour une distance d'environ 5.385, puis le trajet (1,10) -> (4,6) de longueur 5. La longueur totale est d'environ 10.385, donc la réponse sera 11 en arrondissant à l'entier supérieur.
+
+Entrée : [[-55, 2], [-55, 7]]
+
+Sortie : 5
+
+.
+
+.
+
+.
+
+2 - Exploration
+fter regrouping with your teammate, you decide to activate a secret entrance to an ammunition cache. In order to open the small door leading to the ammo, you need to visit several checkpoints around you in a precise order : the checkpoints must be visited in ascending X coordinate.
+
+It is guaranteed that the path is unique (the X coordinates of checkpoints are distinct). What will be the length of your path through all checkpoints ?
+
+Input
+The input checkpoints is a list of coordinates (int, int) of all checkpoints.
+
+There will be between 2 and 100 000 checkpoints, and their coordinates will be between -100 000 and 100 000.
+
+The checkpoints are not necessarily given in ascending X coordinate.
+
+Output
+Your function must return an integer that represents the total length of your path in euclidean distance, rounded up to the next integer.
+
+Examples
+Input : [[1, 10], [-1, 5], [4, 6]]
+Output : 11
+
+We first go from (-1,5) -> (1,10) for a distance of approximately 5.385, then (1,10) -> (4,6) of length 5. The total length is around 10.385, which is rounded up to 11.
+
+Input : [[-55, 2], [-55, 7]]
+
+Output : 5
