@@ -1,0 +1,51 @@
+###1 - L'union fait la force
+Ca y est vous êtes dans l'arène, la Battle Royale a commencé ! Votre meilleur moyen de rester en vie est de s'associer avec un autre combattant.
+
+Mais attention, seuls les combattants faisant partie de la même squad peuvent s'associer. Il y a au plus deux combattants de chaque squad présent dans la Battle Royale, mais tout le monde ne pourra pas former une équipe.
+
+Vous trouvez une liste répertoriant les squads de tous des combattants : écrivez une fonction qui à partir de cette liste donne le nombre de binômes qui pourront être constitués.
+
+Entrée
+L'entrée est une liste de n chaînes de charactères alphanumériques, représentant les squads des n combattants présents.
+
+A noter que chaque nom de squad est présent au maximum 2 fois dans la liste.
+
+Sortie
+Votre fonction doit renvoyer un entier qui représente le nombre de binômes pouvant être formés.
+
+Exemples
+Entrée : ['Blue','Red','Red','Yellow','Blue']
+Sortie : 2
+Les combattants des squads Blue et Red pourront former une équipe, mais pas le combattant de la squad Yellow.
+
+Entrée : ['Squad1','Squad2','Squad3','Squad4']
+Sortie : 0
+
+.
+
+.
+
+.
+
+1 - Strength in numbers
+That's it, you're in the arena, the Battle Royale has begun! Your best way to stay alive is to team up with another fighter.
+
+But beware, only fighters from the same squad can team up. There can be no more than two fighters from each squad in the Battle Royale, but not everyone will be able to form a team.
+
+You will find a list listing the squads of all the fighters: write a function that from this list gives the number of pairs that can be formed.
+
+Input
+The input players is a list of n strings of alphanumeric characters, representing the squads of the n fighters present.
+
+Note that each squad name is present a maximum of 2 times in the list.
+
+Output
+Your function must return an integer that represents the number of pairs that can be formed.
+
+Examples
+Input : ['Blue','Red','Red','Yellow','Blue']
+Output : 2
+Blue and Red squad fighters may form a team, but not the Yellow squad fighter.
+
+Input : ['Squad1','Squad2','Squad3','Squad4']
+Output : 0
