@@ -1,0 +1,51 @@
+English version available below
+
+0 - Que la fête commence !
+"Combattants, préparez-vous !"
+
+Le hurlement du garde vous réveille en sursaut. Vous savez que l'heure de la Battle Royale approche, mais vous êtes prêt.
+
+"Rangez-vous en file, et donnez moi votre identifiant pour vous engager dans la bataille"
+
+Pour commencer la Battle Royale, écrivez une fonction qui prend en entrée un identifiant numérique ; et retourne la réponse au garde, de la forme "Enter Battle Royale with ID: *identifiant*"
+
+Entrée
+L'entrée est une chaîne de caractères représentant votre identifiant à 9 chiffres.
+
+Sortie
+Votre fonction doit retourner une chaîne de caractère au format Enter Battle Royale with ID: 123456789.
+
+Exemples
+Entrée : 123456789
+Sortie : Enter Battle Royale with ID: 123456789
+
+Entrée : 663307073
+Sortie : Enter Battle Royale with ID: 663307073
+
+.
+
+.
+
+.
+
+0 - Let the pary begin!
+"Fighters, get ready!"
+
+The scream of the guard wakes you with a start. You know it's time for the Battle Royale, but you're ready.
+
+"Stand at attention, and give me your ID to join the battle."
+
+To start the Battle Royale, write a function that takes a numeric identifier as input; and returns the answer to the guard, in the form "Enter Battle Royale with ID: *identifier*".
+
+Input
+The input user_id is a string of characters representing your 9-digit ID.
+
+Output
+Your function must return a string in the format Enter Battle Royale with ID: 123456789.
+
+Examples
+Input : 123456789
+Output : Enter Battle Royale with ID: 123456789
+
+Input : 663307073
+Output : Enter Battle Royale with ID: 663307073
