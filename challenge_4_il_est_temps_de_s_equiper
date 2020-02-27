@@ -1,0 +1,69 @@
+4 - Il est temps de s'équiper
+Maintenant que les équipes sont formées, il faut s'armer le plus rapidement possible.
+
+En cherchant dans une maison abandonnée, vous trouvez une cache d'armes ! Malheureusement, celle-ci est verrouillée et il vous faut trouver le code pour l'ouvrir, composé des symboles 0, ., |, et (espace).
+
+Vous vous souvenez alors de votre entraînement : le code dépend de l'identifiant inscrit sur la caisse. Pour la déverrouiller, il faut convertir en représentation maya le nombre qui identifie la caisse, et entrer cette combinaison pour ouvrir la cache.
+
+Le système maya est un système de numérotation en base 20, où les chiffres (que l'on appellera ici "digits") entre 1 et 19 sont formés des symboles | de valeur 5 et de . de valeur 1. Par exemple, le |||... représente le digit 18 alors que |.... représente le 9. Le 0 est un digit spécial, on le représente 0.
+
+Pour représenter des nombres plus grands que 20, on utilise plusieurs digits séparés par des espaces, avec le digit de poids faible à droite. Par exemple, 457 sera représenté par 1x(20^2) + 2x20 + 17, soit . .. |||...
+
+Ecrivez une fonction qui prend en entrée l'identifiant de la caisse et qui retourne une chaîne de caractère représentant le code pour ouvrir la caisse !
+
+Entrée
+L'entrée est un entier n (avec 0 < n < 8000) représentant l'identifiant de la cache d'armes.
+
+Sortie
+Votre fonction doit renvoyer une chaîne de caractères représentant le nombre en entier converti en notation maya.
+
+Exemples
+Entrée : 18
+Sortie : |||...
+
+Entrée : 20
+Sortie : . 0
+
+Entrée : 26
+Sortie : . |.
+
+Entrée : 457
+Sortie : . .. |||..
+
+.
+
+.
+
+.
+
+4 - It's time to gear up
+Now that the teams are formed, we need to find a weapon as quickly as possible.
+
+When you search an abandoned house, you find a cache of weapons! Unfortunately, it is locked and you need to find the code to open it, consisting of the symbols 0, ., |, and (space).
+
+Then you remember your training: the code depends on the identifier written on the cache. To unlock it, you have to convert the number that identifies the cash register into a Mayan representation, and enter this combination to open the cache.
+
+The Mayan system is a numbering system based on 20, where the digits (here called "digits") between 1 and 19 are made up of the symbols || with a value of 5 and . with a value of 1. For example, |||... represents digit 18, while |.... represents 9. The 0 is a special digit, it is represented as 0.
+
+To represent numbers larger than 20, several digits separated by spaces are used, with the least significant digit to the right. For example, 457 will be represented as 1x(20^2) + 2x20 + 17, or . .. |||...
+
+Write a function that takes the cache ID as input and returns a string representing the code to open the checkout!
+
+Input
+The entry is an integer n (with 0 < n < 8000) denoting the identifier of the weapons cache.
+
+Output
+Your function must return a string representing the integer converted to Mayan notation.
+
+Examples
+Input : 18
+Output : |||...
+
+Input : 20
+Output : . 0
+
+Input : 26
+Output : . |.
+
+Input : 457
+Output : . .. |||..
